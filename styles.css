@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: rgba(137, 43, 226, 0.461);
+}
+.nav-container{
+    /* border: 2px solid red; */
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo-container{
+    /* border: 1px solid green; */
+    display: flex;
+    width: 60%;
+    
+}
+.logo-container img{
+    width: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.logo-container p{
+    font-size: 30px;
+    
+
+}
+.hive-section{
+    color: blueviolet;
+}
+.nav-items-container{
+    /* border: 1px solid blue; */
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.nav-items-container  .login-btn{
+    background-color: #cd58aa ;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+}
+
+/* nav design ends here */
+
+.banner-section{
+     border: 1px solid red;
+     margin: 50px auto 0;
+     max-width: 1100px;
+}
